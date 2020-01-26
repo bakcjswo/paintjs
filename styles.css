@@ -1,0 +1,29 @@
+@import "reset.css";
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: antiquewhite;
+}
+
+.canvas {
+  width: 700px;
+  height: 700px;
+  background-color: white;
+  border-radius: 15px;
+  box-shadow: 0 10px 10px -5px;
+}
+
+.controls__colors {
+  display: flex;
+  margin: 20px;
+}
+
+.controls__color {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  box-shadow: 0 10px 10px -5px;
+  margin: 0px 5px;
+}
